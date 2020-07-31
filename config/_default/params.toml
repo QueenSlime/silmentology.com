@@ -100,7 +100,7 @@ address = {street = "Plot 32, 20th Ward", city = "The Lavender Beds", region = "
  coordinates = {latitude = "37.4275", longitude = "-122.1697"}
 
 # Directions for visitors to locate you.
-directions = "Enter the Moogle house and make your way to Queen Aly's sanctuary"
+directions = "Enter the Moogle house and make your way to Queen Aly's sanctuary (room No. 4)"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
