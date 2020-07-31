@@ -172,9 +172,10 @@ link_authors = true
 # Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.toml`.
 abstract_length = 135
 
-# Load JS plugins
+# Load JS/CSS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 plugins_js  = []
+plugins_css = ["custom"]
 
 # Avatars.
 # An avatar is an image that appears next to a user's name.
