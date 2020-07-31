@@ -5,7 +5,7 @@ name = "Minimal"
 google_fonts = ""
 
 # Font families
-heading_font = "Freude"
-body_font = "Freude"
-nav_font = "Freude"
-mono_font = "Freude"
+heading_font = "freuderegular"
+body_font = "freuderegular"
+nav_font = "freuderegular"
+mono_font = "monospace"
