@@ -1,6 +1,7 @@
 @font-face {
-  font-family: 'Freude';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Freude'), url('fonts/freude.otf');
+    font-family: 'freuderegular';
+    src: url('fonts/freude-webfont.woff2') format('woff2'),
+         url('fonts/freude-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
