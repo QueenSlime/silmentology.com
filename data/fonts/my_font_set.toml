@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Minimal"
+
+# Optional Google font URL
+google_fonts = "family=Flavors"
+
+# Font families
+heading_font = "Flavors"
+body_font = "Flavors"
+nav_font = "Flavors"
+mono_font = "Flavors"
