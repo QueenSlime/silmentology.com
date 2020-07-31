@@ -17,7 +17,7 @@ height = "500px"
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
   title = ""
-  content = ":smile:"
+  content = ""
   align = "right"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
