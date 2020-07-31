@@ -2,10 +2,10 @@
 name = "Minimal"
 
 # Optional Google font URL
-google_fonts = "family=Flavors"
+google_fonts = ""
 
 # Font families
-heading_font = "Flavors"
-body_font = "Flavors"
-nav_font = "Flavors"
-mono_font = "Flavors"
+heading_font = "Freude"
+body_font = "Freude"
+nav_font = "Freude"
+mono_font = "Freude"
