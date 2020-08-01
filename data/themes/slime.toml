@@ -17,7 +17,7 @@ link_hover = "rgb(54, 54, 54)"
 # Menu
 menu_primary = "#4d87ef"
 menu_text = "#4d87ef"
-menu_text_active = "#3273dc"
+menu_text_active = "#4d87ef"
 menu_title = "#4d87ef"
 
 # Home sections
