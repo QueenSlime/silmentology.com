@@ -6,6 +6,6 @@ google_fonts = ""
 
 # Font families
 heading_font = "Freude"
-body_font = ""
+body_font = "Freude"
 nav_font = "Freude"
 mono_font = "monospace"
