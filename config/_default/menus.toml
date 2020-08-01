@@ -5,7 +5,7 @@
 
 [[main]]
   name = "JOIN"
-  url = "#"
+  url = "about/"
   weight = 4
   
 [[main]]
