@@ -10,7 +10,7 @@
   
 [[main]]
   name = "GALLERY"
-  url = "#"
+  url = "gallery/"
   weight = 3
   
 [[main]]
