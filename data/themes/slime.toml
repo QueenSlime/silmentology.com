@@ -12,7 +12,7 @@ primary_dark = "#00c4a7"
 
 # Links
 link = "#3273dc"
-link_hover = "rgb(54, 54, 54)"
+link_hover = "rgb(77, 135, 239)"
 
 # Menu
 menu_primary = "#4d87ef"
