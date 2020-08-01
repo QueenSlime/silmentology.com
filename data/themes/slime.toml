@@ -11,14 +11,14 @@ primary_light = "#4d87ef"
 primary_dark = "#00c4a7"
 
 # Links
-link = "#3273dc"
+link = "#4d87ef"
 link_hover = "rgb(102, 0, 204)"
 
 # Menu
-menu_primary = "#5900b3"
+menu_primary = "#ffffff"
 menu_text = "#4d87ef" 
-menu_text_active = "rgb(77, 135, 239)"
-menu_title = "#ff9900"
+menu_text_active = "#6600cc"
+menu_title = ""
 
 # Home sections
 home_section_odd = "rgb(255, 255, 255)"
