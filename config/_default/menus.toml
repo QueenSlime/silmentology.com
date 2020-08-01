@@ -15,12 +15,12 @@
   
 [[main]]
   name = "HOLY SLIMBLE"
-  url = "#"
+  url = "holy-slimble/"
   weight = 2
   
 [[main]]
   name = "ABOUT"
-  url = "#"
+  url = "about/"
   weight = 1
 
 # Link to a PDF of your resume/CV from the menu.
