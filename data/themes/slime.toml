@@ -16,7 +16,7 @@ link_hover = "rgb(102, 0, 204)"
 
 # Menu
 menu_primary = "#ffffff"
-menu_text = "#4d87ef" 
+menu_text = "rgb(77, 135, 239)" 
 menu_text_active = "rgb(20, 95, 235)"
 menu_title = "#000"
 
