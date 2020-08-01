@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Slime"
+
+# Optional Google font URL
+google_fonts = ""
+
+# Font families
+heading_font = "Freude"
+body_font = ""
+nav_font = "Freude"
+mono_font = "monospace"
