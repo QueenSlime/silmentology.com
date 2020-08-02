@@ -50,7 +50,7 @@ subtitle = ""
  css_class = ""
 +++
 
-### <center> Rejoice for the Holy Slime has chosen you. We, the devout chldern of Slimentology, welcome you into the gooey embrace of the Ooze. </center>
+### <center> Rejoice for the Holy Slime has chosen you. We, the devout childern of Slimentology, welcome you into the gooey embrace of the Ooze. </center>
 
 <br>
 
