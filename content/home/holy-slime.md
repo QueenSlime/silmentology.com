@@ -18,7 +18,7 @@ height = "335px"
 [[item]]
   title = "Holy Slime: Part 1"
   content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-  align = "left"  # Choose `center`, `left`, or `right`.
+  align = "center"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
@@ -42,6 +42,6 @@ height = "335px"
   [[item]]
   title = "Holy Slime: Part 3"
   content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-  align = "right"  # Choose `center`, `left`, or `right`.
+  align = "center"  # Choose `center`, `left`, or `right`.
   overlay_color = "#528af0"  # An HTML color value.
 +++
