@@ -13,7 +13,3 @@ header:
   caption: ""
   image: ""
 ---
-
-Add your *content* here...
-
-{{< gallery album="gallery" >}} 
