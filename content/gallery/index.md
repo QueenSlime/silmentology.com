@@ -15,3 +15,5 @@ header:
 ---
 
 Add your *content* here...
+
+{{< gallery album="gallery" >}} 
