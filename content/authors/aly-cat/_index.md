@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Queen Slime
+role: Slime Queen
 
 # Organizations/Affiliations
 organizations:
