@@ -1,8 +1,15 @@
-/* Slime font  */
+/* Freude font  */
 @font-face {
   font-family: Freude;
   src: url(/fonts/freude.woff2) format('woff2'),
        url(/fonts/freude.woff) format('woff');
+}
+
+/* Congenial Light font  */
+@font-face {
+  font-family: Congenial Light;
+  src: url(/fonts/congenial-light.woff2) format('woff2'),
+       url(/fonts/congenial-light.woff) format('woff');
 }
 
 /* Change headings and author names to blue  */
