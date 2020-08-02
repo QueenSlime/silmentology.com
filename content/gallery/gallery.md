@@ -1,40 +1,60 @@
 +++
-# Slider widget.
-widget = "slider"  # See https://sourcethemes.com/academic/docs/page-builder/
+# A Demo section created with the Blank widget.
+# Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
+# Add more sections by duplicating this file and customizing to your requirements.
+
+widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 1  # Order that this section will appear.
+weight = 3  # Order that this section will appear.
 
-# Slide interval.
-# Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
-interval = false
+title = ""
+subtitle = ""
 
-# Slide height (optional).
-# E.g. `500px` for 500 pixels or `calc(100vh - 70px)` for full screen.
-height = "calc(100vh - 70px)"
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "1"
 
-# Slides.
-# Duplicate an `[[item]]` block to add more slides.
+[design.background]
+  # Apply a background color, gradient, or image.
+  #   Uncomment (by removing `#`) an option to apply it.
+  #   Choose a light or dark text color by setting `text_color_light`.
+  #   Any HTML color name or Hex value is valid.
 
-[[item]]
-
- # Overlay a color or image (optional).
- # Deactivate an option by commenting out the line, prefixing it with `#`.
-  overlay_color = ""  # An HTML color value.
-  overlay_img = "slime-soup-ritual.jpg"  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
- 
- # Call to action button (optional).
- #   Activate the button by specifying a URL and button label below.
- #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  cta_label = ""
-  cta_url = ""
-  cta_icon_pack = ""
-  cta_icon = ""
+  # Background color.
+  # color = "navy"
   
- [[item]]
-  overlay_img = "landing.png"
+  # Background gradient.
+  # gradient_start = "DeepSkyBlue"
+  # gradient_end = "SkyBlue"
+  
+  # Background image.
+  image = ""  # Name of image in `static/media/`.
+  image_darken = 0  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
+  image_position = "center"  # Options include `left`, `center` (default), or `right`.
+  image_parallax = false  # Use a fun parallax-like fixed background effect? true/false
 
- [[item]]
-  overlay_img = "header.png"
+  # Text color (true=light or false=dark).
+  text_color_light = false
+
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["20px", "0", "50px", "0"]
+
+[advanced]
+ # Custom CSS. 
+ css_style = ""
+ 
+ # CSS class.
+ css_class = ""
 +++
+
+<!-- fancybox http://fancyapps.com/fancybox/3/ -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<!-- images -->
+<a data-fancybox="gallery" href="big_1.jpg"><img src="small_1.jpg"></a>
+<a data-fancybox="gallery" href="big_2.jpg"><img src="small_2.jpg"></a>
