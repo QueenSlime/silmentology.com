@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 2  # Order that this section will appear.
 
 title = "Servants of Slime"
-subtitle = "Slurrrrrp"
+subtitle = ""
 
 [content]
   # Choose which groups/teams of users to display.
