@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Slave
+role: Slime Scribe
 
 # Organizations/Affiliations
 organizations:
