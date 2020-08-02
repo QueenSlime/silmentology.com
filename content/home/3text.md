@@ -36,7 +36,7 @@ subtitle = ""
   image_parallax = false  # Use a fun parallax-like fixed background effect? true/false
 
   # Text color (true=light or false=dark).
-  text_color_light = true
+  text_color_light = false
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
@@ -50,7 +50,7 @@ subtitle = ""
  css_class = ""
 +++
 
-### Rejoice for the Holy Slime has chosen you. We, the devout chldern of Slimentology, welcome you into the gooey embrace of the Ooze.
+<center> ### Rejoice for the Holy Slime has chosen you. We, the devout chldern of Slimentology, welcome you into the gooey embrace of the Ooze. </center>
 
 <center>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</center>
 
