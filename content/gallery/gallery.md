@@ -56,5 +56,5 @@ subtitle = ""
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 <!-- images -->
-<a data-fancybox="gallery" href="media/slime-soup-ritual.jpg"><img src="media/slime-soup-ritual.jpg"></a>
-<a data-fancybox="gallery" href="media/slime-soup-ritual.jpg"><img src="media/slime-soup-ritual.jpg"></a>
+<a data-fancybox="gallery" href="big_1.jpg"><img src="media/slime-soup-ritual.jpg"></a>
+<a data-fancybox="gallery" href="big_1.jpg"><img src="media/slime-soup-ritual.jpg"></a>
