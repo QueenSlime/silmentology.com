@@ -19,7 +19,12 @@ a:hover {
     text-decoration: none;
 }
 
-
+/* Change color of back-to-top-of-page chevron  */
 site-footer, footer a.back-to-top i {
     color: rgba(77, 135, 239, 1);
+}
+
+/* Menu item hover over color  */
+.main-menu-item:hover {
+    color: #ef4d4d;
 }
