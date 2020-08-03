@@ -49,7 +49,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-              <script>
+<script>
                  jQuery(document).ready(function () {
 
                     jQuery("#nanogallery2").nanogallery2( {
