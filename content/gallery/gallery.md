@@ -159,13 +159,16 @@ Boop on your head
 <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">          
 
 <!-- nanogallery2 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nanogallery2@3.0.2/dist/css/nanogallery2.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/nanogallery2@3.0.2/dist/jquery.nanogallery2.min.js"></script>
+
 <link  href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
 <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/jquery.nanogallery2.min.js"></script>
 
 <!-- ### position of the gallery ### -->
-              <div id="nanogallery2">gallery_made_with_nanogallery2</div>
+<div id="nanogallery2">gallery_made_with_nanogallery2</div>
             
-              <script>
+<script>
                  jQuery(document).ready(function () {
 
                     jQuery("#nanogallery2").nanogallery2( {
