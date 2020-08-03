@@ -10,4 +10,4 @@
     endpoint = "https://slimentology.herokuapp.com/v2/entry"
     username = "QueenSlime"
     repository = "slimentology.com"
-    branch = "master"
+    branch = "development"
