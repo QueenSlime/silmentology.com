@@ -67,6 +67,7 @@ subtitle = ""
 lightGallery(document.getElementById('lightgallery'), {
     thumbnail:true,
     animateThumb: true,
-    showThumbByDefault: true
+    showThumbByDefault: true,
+	fullScreen: true
 }); 
 </script>
