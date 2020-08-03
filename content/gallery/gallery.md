@@ -156,33 +156,27 @@ lightGallery(document.getElementById('lightgallery'), {
 Boop on your head
 
 
-<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">          
+            <!-- nanogallery2 -->
+            <link  href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+            <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/jquery.nanogallery2.min.js"></script>
+        </head>
+        <body>
+        
+              <h1>gallery made with nanogallery2</h1>
 
-<!-- nanogallery2 -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nanogallery2@3.0.2/dist/css/nanogallery2.min.css" />
-<script src="https://cdn.jsdelivr.net/npm/nanogallery2@3.0.2/dist/jquery.nanogallery2.min.js"></script>
-
-<link  href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
-<script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/jquery.nanogallery2.min.js"></script>
-
-<!-- ### position of the gallery ### -->
-            
-<script>
-                 jQuery(document).ready(function () {
-
-                    jQuery("#nanogallery2").nanogallery2( {
-                        // ### gallery settings ### 
-                        thumbnailHeight:  150,
-                        thumbnailWidth:   150,
-                        itemsBaseURL:     'https://nanogallery2.nanostudio.org/samples/',
-                        
-                        // ### gallery content ### 
-                        items: [
-                            { src: 'https://nanogallery2.nanostudio.org/img/npp2_tn2.jpg', srct: 'https://nanogallery2.nanostudio.org/img/npp2_tn2.jpg', title: 'Berlin 1' },
-                            { src: 'https://nanogallery2.nanostudio.org/img/npp2_tn2.jpg', srct: 'https://nanogallery2.nanostudio.org/img/npp2_tn2.jpg', title: 'Berlin 2' },
-                            { src: 'https://nanogallery2.nanostudio.org/img/npp2_tn2.jpg', srct: 'https://nanogallery2.nanostudio.org/img/npp2_tn2.jpg', title: 'Berlin 3' }
-                          ]
-                      });
-                  });
-              </script>
-
+              <!-- ### start of the gallery definition ### -->
+              <div id="nanogallery2"
+              
+                  <!-- gallery settings -->
+                  data-nanogallery2 = '{
+                        "thumbnailHeight":  150,
+                        "thumbnailWidth":   150,
+                        "itemsBaseURL":     "https://nanogallery2.nanostudio.org/samples/"
+                      }' >
+                      
+                  <!-- gallery content -->
+                  <a href = "berlin1.jpg"   data-ngThumb = "berlin1_t.jpg" > Berlin 1 </a>
+                  <a href = "berlin2.jpg"   data-ngThumb = "berlin2_t.jpg" > Berlin 2 </a>
+                  <a href = "berlin3.jpg"   data-ngThumb = "berlin2_t.jpg" > Berlin 3 </a>
+              </div>
+              <!-- ### end of the gallery definition ### -->
