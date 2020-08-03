@@ -95,16 +95,6 @@ subtitle = ""
         </a>
       </li>
 	 
-	       <li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/4-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/4-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/4.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/4-1600.jpg"
-      data-sub-html="<h4>Coniston Calmness</h4><p>Beautiful morning</p>">
-        <a href="">
-          <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-4.jpg">
-          <div class="demo-gallery-poster">
-            <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
-          </div>
-        </a>
-      </li>
-	 
     </ul>
   </div>
 </div>
