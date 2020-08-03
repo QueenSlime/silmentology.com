@@ -166,7 +166,6 @@ Boop on your head
 <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/jquery.nanogallery2.min.js"></script>
 
 <!-- ### position of the gallery ### -->
-<div id="nanogallery2">gallery_made_with_nanogallery2</div>
             
 <script>
                  jQuery(document).ready(function () {
