@@ -53,7 +53,6 @@ subtitle = ""
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/css/lightgallery.css" />
 <script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/lib/js/lightgallery.min.js"></script>
 
-
 <div id="lightgallery">
     <a href="../media/landing.png">
         <img src="../media/landing.png">
@@ -64,5 +63,9 @@ subtitle = ""
 </div>
 
 <script>
-lightGallery(document.getElementById('lightgallery'));
+lightGallery(document.getElementById('lightgallery'), {
+    thumbnail:true,
+    animateThumb: false,
+    showThumbByDefault: false
+}); 
 </script>
