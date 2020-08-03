@@ -65,7 +65,5 @@ subtitle = ""
 </div>
 
 <script>
-lightGallery(document.getElementById('lightgallery'), {
-    thumbnail:true
-}); 
-/script>
+lightGallery(document.getElementById('lightgallery');
+</script>
