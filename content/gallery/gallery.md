@@ -50,6 +50,9 @@ subtitle = ""
  css_class = ""
 +++
 
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+			
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/css/lightgallery.css" />
 <script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/js/lightgallery.min.js"></script>
 
@@ -151,3 +154,33 @@ lightGallery(document.getElementById('lightgallery'), {
 </script>
 
 Boop on your head
+
+
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">          
+
+<!-- nanogallery2 -->
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+<script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/jquery.nanogallery2.min.js"></script>
+
+<!-- ### position of the gallery ### -->
+              <div id="nanogallery2">gallery_made_with_nanogallery2</div>
+            
+              <script>
+                 jQuery(document).ready(function () {
+
+                    jQuery("#nanogallery2").nanogallery2( {
+                        // ### gallery settings ### 
+                        thumbnailHeight:  150,
+                        thumbnailWidth:   150,
+                        itemsBaseURL:     'https://nanogallery2.nanostudio.org/samples/',
+                        
+                        // ### gallery content ### 
+                        items: [
+                            { src: 'berlin1.jpg', srct: 'berlin1_t.jpg', title: 'Berlin 1' },
+                            { src: 'berlin2.jpg', srct: 'berlin2_t.jpg', title: 'Berlin 2' },
+                            { src: 'berlin3.jpg', srct: 'berlin3_t.jpg', title: 'Berlin 3' }
+                          ]
+                      });
+                  });
+              </script>
+
