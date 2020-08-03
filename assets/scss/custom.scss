@@ -53,72 +53,129 @@ site-footer, footer a.back-to-top i {
     border: 8px solid #4d87ef;
 }
 
-/* Comment Section CSS */
+/* Staticman comment section and form */
 
-#comments h3.title {
-    font-weight: 700;
-    font-size: 20px;
-    padding: 10px 4rem;
-    background: #9a6bcc;
-    color: #fff;
+.post-comments {
 }
-
+#comments h3.title{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 4rem;
+  background: #9a6bcc;
+  color: white;
+}
+#comments .title a{
+  text-decoration: none;
+  color: white;
+}
+.post-comments h3.prompt{
+   margin-top: 2rem;
+}
 .post-comment {
-    background-color: #fff;
-    padding: 2rem 4rem;
+   background-color: white;
+   padding: 2rem 4rem;
 }
-
+.post-comment.reply{
+  background: #f3f0f0eb;
+  position: relative;
+}
+.arrow-up{
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #f3f1f1;
+  position: absolute;
+  top: -20px;
+}
+.post-comment:first-of-type {
+}
+.post-comment:last-of-type {
+}
 .post-comment-header {
-    margin-bottom: 20px;
+   margin-bottom: 20px;
 }
-
+.post-comment .comment-message{
+  font-size: 1.7rem;
+  word-break: break-word;
+}
 .post-comment-avatar {
-    display: inline-block;
-    vertical-align: middle;
-    border-radius: 50%;
+   display: inline-block;
+   vertical-align: middle;
+   border-radius: 50%;
 }
 
-.comment__reply {
-    text-align: right;
-    margin-top: 10px;
+.post-comment-info {
+   display: inline-block;
+   margin-left: 20px;
+   margin-bottom: 0;
+   vertical-align: middle;
+}
+.comment__reply{
+  text-align: right;
+  margin-top: 10px;
+}
+.comment__reply button{
+  background: #9a6bcc;
+  color: white;
+  border: none;
+  transition: all .2s;
+}
+.comment__reply button:hover{
+  border: none; 
+  background: #996bccd1;
 }
 
-.comment__reply button {
-    background: #528af0;
-    color: #fff;
-    border: none;
-    transition: all .2s;
+/* Part of blog subscription also */
+.post-comment-field, .post-blogsubscriber-btn {
+   display: block;
+   font: inherit;
+   padding: 10px;
+   margin-top: 20px;
+   outline-color: #9b6bcc;
+   width: 100%;
 }
 
-.post-comment.reply {
-    background: #f3f0f0eb;
-    position: relative;
+.btn-primary.comment-buttons {
+   background: #9b6bcc !important;
+   border-color: #9b6bcc !important;
+   color: white;
+   border-radius: 6px;
 }
 
-.arrow-up {
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 20px solid #f3f1f1;
-    position: absolute;
-    top: -20px;
+.btn-primary.comment-buttons:focus, .btn-primary.comment-buttons:hover {
+   background: #7c51a2 !important;
+   color: white;
 }
 
-#comments h3.title {
-    font-weight: 700;
-    font-size: 20px;
-    padding: 10px 4rem;
-    background: #9a6bcc;
-    color: #fff;
+.darkmode .btn-primary.comment-buttons:focus, .btn-primary.comment-buttons:hover{
+  background: #838087 !important;
 }
 
-input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
-    height: 38px;
-    padding: 6px 10px;
-    background-color: #fff;
-    border: 1px solid #d1d1d1;
-    border-radius: 4px;
-    box-shadow: none;
-    box-sizing: border-box;
+.post-comment-info .post-comment-name {
+   font-size: 2rem;
+   font-weight: 500;
+
 }
+
+.post-comment-info .post-time {
+   font-size: 14px;
+   font-weight: normal;
+   letter-spacing: 0.03em;
+   color: #888;
+
+}
+
+.post-comment-info .post-time:hover {
+   color: #9b6bcc;
+}
+
+.post-new-comment {
+    margin-bottom: 0px;
+    margin-top: 30px;
+    padding: 4rem;
+    padding-top: 0rem;
+}
+
+
+/* End staticman comment section and form */
