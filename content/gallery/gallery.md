@@ -56,8 +56,4 @@ subtitle = ""
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 <!-- images -->
-<a data-fancybox="gallery" data-animation-effect="false" data-caption="My caption" href="https://i.imgur.com/I5Rh4nb.jpg"><img src="https://i.imgur.com/I5Rh4nb.jpg"></a>
-<a data-fancybox="gallery" data-animation-effect="false" data-caption="My caption" href="https://i.imgur.com/cyK1orz.jpg"><img src="https://i.imgur.com/cyK1orz.jpg"></a>
-<a data-fancybox="gallery" data-animation-effect="false" data-caption="My caption" href="https://i.imgur.com/qxfiuhX.jpg"><img src="https://i.imgur.com/qxfiuhX.jpg"></a>
-<a data-fancybox="gallery" data-animation-effect="false" data-caption="My caption" href="https://i.imgur.com/g2kPCjV.jpg"><img src="https://i.imgur.com/g2kPCjV.jpg"></a>
-<a data-fancybox="gallery" data-animation-effect="false" data-caption="My caption" href="https://i.imgur.com/RYB7xuS.jpg"><img src="https://i.imgur.com/RYB7xuS.jpg"></a>
+<a data-fancybox="gallery" data-animation-effect="false" data-caption="My caption" href="../media/landing.png"><img src="../media/landing.png"></a>
