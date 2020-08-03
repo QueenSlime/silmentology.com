@@ -155,13 +155,9 @@ lightGallery(document.getElementById('lightgallery'), {
 
 Boop on your head
 
-<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">   
-
-            <!-- nanogallery2 -->
             <link  href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
             <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/jquery.nanogallery2.min.js"></script>
-        </head>
-        <body>
+
         
               <h1>gallery made with nanogallery2</h1>
 
