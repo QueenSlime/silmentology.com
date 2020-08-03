@@ -104,3 +104,21 @@ site-footer, footer a.back-to-top i {
     position: absolute;
     top: -20px;
 }
+
+#comments h3.title {
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 4rem;
+    background: #9a6bcc;
+    color: #fff;
+}
+
+input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+    height: 38px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
