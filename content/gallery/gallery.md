@@ -50,80 +50,34 @@ subtitle = ""
  css_class = ""
 +++
 
-<!-- jQuery -->
+ <!-- jQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
-			
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/css/lightgallery.css" />
-<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/js/lightgallery.min.js"></script>
 
+<!-- nanogallery2 -->
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/2.4.2/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
 
-<div class="cont">
-  <div class="page-head">
-  <div class="demo-gallery">
-    <ul id="lightgallery">
-      <li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
-      data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-        <a href="">
-          <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
-          <div class="demo-gallery-poster">
-            <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
-          </div>
-        </a>
-      </li>
-      <li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/2-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/2-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/2.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
-      data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-        <a href="">
-          <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-2.jpg">
-          <div class="demo-gallery-poster">
-            <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
-          </div>
-        </a>
-      </li>
-      <li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/13-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/13-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/13.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-      data-sub-html="<h4>Sunset Serenity</h4><p>A gorgeous Sunset tonight captured at Coniston Water....</p>">
-        <a href="">
-          <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-13.jpg">
-          <div class="demo-gallery-poster">
-            <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
-          </div>
-        </a>
-      </li>
-      <li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/4-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/4-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/4.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/4-1600.jpg"
-      data-sub-html="<h4>Coniston Calmness</h4><p>Beautiful morning</p>">
-        <a href="">
-          <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-4.jpg">
-          <div class="demo-gallery-poster">
-            <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
-          </div>
-        </a>
-      </li>
-  </div>
-</div>
+<script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/2.4.2/jquery.nanogallery2.min.js"></script>
+    
+<h1>gallery made with nanogallery2</h1>
+
+<!-- ### position of the gallery ### -->
+<div id="nanogallery2">gallery_made_with_nanogallery2</div>
 
 <script>
-lightGallery(document.getElementById('lightgallery'), {
-    thumbnail: 'true',
-    animateThumb: 'true',
-    showThumbByDefault: 'true',
-	fullScreen: 'true',
-	share: 'true'
-}); 
-</script>
-
-Boop on your head
-
-<link href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/jquery.nanogallery2.min.js"></script>
-
-<div id="nanogallery2"
-
-data-nanogallery2 = '{
-"thumbnailHeight": 150,
-"thumbnailWidth": 150,
-"itemsBaseURL": "https://nanogallery2.nanostudio.org/samples/"
-}' >
-
-<a href = "berlin1.jpg"   data-ngThumb = "berlin1_t.jpg" > Berlin 1 </a>
-<a href = "berlin2.jpg"   data-ngThumb = "berlin2_t.jpg" > Berlin 2 </a>
-<a href = "berlin3.jpg"   data-ngThumb = "berlin2_t.jpg" > Berlin 3 </a>
+jQuery(document).ready(function () {
+jQuery("#nanogallery2").nanogallery2( {
+// ### gallery settings ### 
+thumbnailHeight:  150,
+thumbnailWidth:   150,
+itemsBaseURL:     'https://nanogallery2.nanostudio.org/samples/',
+ 
+// ### gallery content ### 
+items: [
+{ src: 'berlin1.jpg', srct: 'berlin1_t.jpg', title: 'Berlin 1' },
+{ src: 'berlin2.jpg', srct: 'berlin2_t.jpg', title: 'Berlin 2' },
+{ src: 'berlin3.jpg', srct: 'berlin3_t.jpg', title: 'Berlin 3' }
+]
+});
+});
+</script>		  
 </div>
