@@ -50,7 +50,6 @@ subtitle = ""
  css_class = ""
 +++
 
-<!-- lightgallery https://github.com/sachinchoolur/lightgallery.js -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/css/lightgallery.css" />
 <script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/lib/js/lightgallery.min.js"></script>
 
