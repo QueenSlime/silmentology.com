@@ -50,7 +50,10 @@ subtitle = ""
  css_class = ""
 +++
 
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/css/lightgallery.css" />
+<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/lib/js/lightgallery.min.js"></script>
+
 
 <div id="lightgallery">
     <a href="../media/landing.png">
@@ -60,7 +63,6 @@ subtitle = ""
         <img src="../media/landing.png">
     </a>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/lib/js/lightgallery.min.js"></script>
 
 <script>
     lightGallery(document.getElementById('lightgallery'), {
