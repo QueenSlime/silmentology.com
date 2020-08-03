@@ -56,4 +56,4 @@ subtitle = ""
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 <!-- images -->
-<a data-fancybox="gallery" href="https://c1.staticflickr.com/9/8158/7471905776_08d1032b71_b.jpg"><img src="https://c1.staticflickr.com/9/8158/7471905776_08d1032b71_b.jpg"></a>
+<a data-fancybox="gallery" data-caption="My caption" href="https://c1.staticflickr.com/9/8158/7471905776_08d1032b71_b.jpg"><img src="https://c1.staticflickr.com/9/8158/7471905776_08d1032b71_b.jpg"></a>
