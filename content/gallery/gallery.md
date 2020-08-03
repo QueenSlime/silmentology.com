@@ -50,16 +50,13 @@ subtitle = ""
  css_class = ""
 +++
           
-            <!-- jQuery -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
           
-            <!-- nanogallery2 -->
             <link  href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
             <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/jquery.nanogallery2.min.js"></script>
         
               <h1>gallery made with nanogallery2</h1>
 
-              <!-- ### position of the gallery ### -->
               <div id="nanogallery2">gallery_made_with_nanogallery2</div>
             
               <script>
