@@ -108,4 +108,4 @@ lightGallery(document.getElementById('lightgallery'), {
 }); 
 </script>
 
-Boop
+Boop on your head
