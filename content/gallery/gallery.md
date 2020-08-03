@@ -94,8 +94,6 @@ subtitle = ""
           </div>
         </a>
       </li>
-	 
-    </ul>
   </div>
 </div>
 
