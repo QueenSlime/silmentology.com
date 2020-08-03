@@ -1,0 +1,5 @@
+Remove branding:
+- Remove everything but </footer> in layouts/partials/site_footer.html
+
+Disable newer JQuery 
+- Remove this line in site_js.html:   {{ printf "<script src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.jQuery.url $js.jQuery.version) $js.jQuery.sri | safeHTML }}
