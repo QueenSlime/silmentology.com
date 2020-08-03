@@ -158,3 +158,17 @@ Boop on your head
 <link  href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
 <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/jquery.nanogallery2.min.js"></script>
 
+<div id="nanogallery2"
+              
+<!-- gallery settings -->
+    data-nanogallery2 = '{
+    "thumbnailHeight":  150,
+    "thumbnailWidth":   150,
+    "itemsBaseURL":     "https://nanogallery2.nanostudio.org/samples/"
+    }' >
+                      
+<!-- gallery content -->
+<a href = "berlin1.jpg"   data-ngThumb = "berlin1_t.jpg" > Berlin 1 </a>
+<a href = "berlin2.jpg"   data-ngThumb = "berlin2_t.jpg" > Berlin 2 </a>
+ <a href = "berlin3.jpg"   data-ngThumb = "berlin2_t.jpg" > Berlin 3 </a>
+</div>
