@@ -49,9 +49,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
-            <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">          
-            
+          
             <!-- jQuery -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
           
