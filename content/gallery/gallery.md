@@ -66,7 +66,7 @@ subtitle = ""
 <script>
 lightGallery(document.getElementById('lightgallery'), {
     thumbnail:true,
-    animateThumb: false,
-    showThumbByDefault: false
+    animateThumb: true,
+    showThumbByDefault: true
 }); 
 </script>
