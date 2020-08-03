@@ -50,12 +50,18 @@ subtitle = ""
  css_class = ""
 +++
 
-<!-- fancybox http://fancyapps.com/fancybox/3/ -->
+<!-- lightgallery https://github.com/sachinchoolur/lightgallery.js -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/css/lightgallery.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/lib/js/lightgallery.min.js"></script>
 
-<!-- images -->
-<a data-fancybox="photos" data-animation-effect="false" data-caption="My caption" href="../media/landing.png"><img src="../media/landing.png"></a>
-<a data-fancybox="photos" data-animation-effect="false" data-caption="My caption" href="../media/header.png"><img src="../media/header.png"></a>
-<a data-fancybox="photos" data-animation-effect="false" data-caption="My caption" href="../media/slime-soup-ritual.jpg"><img src="../media/slime-soup-ritual.jpg"></a>
+<div id="lightgallery">
+    <a href="../media/landing.png">
+        <img src="../media/landing.png">
+    </a>
+    <a href="../media/landing.png">
+        <img src="../media/landing.png">
+    </a>
+</div>
+
+<script>lightGallery(document.getElementById('lightgallery'));</script>
