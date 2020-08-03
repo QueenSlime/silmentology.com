@@ -5,7 +5,7 @@
 
 [[main]]
   name = "STATICMAN"
-  url = "#"
+  url = "staticman/"
   weight = 4
   
 [[main]]
