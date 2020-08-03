@@ -57,3 +57,30 @@ subtitle = ""
 
 <!-- images -->
 <a data-fancybox="gallery" data-animation-effect="false" data-caption="My caption" href="../media/landing.png"><img src="../media/landing.png"></a>
+
+
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
+
+    <h1>Gallery made with nanogallery2</h1>
+
+    <div ID="ngy2p" data-nanogallery2='{
+        "itemsBaseURL": "http://nanogallery2.nanostudio.org/samples/",
+        "thumbnailWidth": "200",
+        "thumbnailHeight": "auto",
+        "thumbnailLabel": {
+          "position": "overImageOnBottom"
+        },
+        "thumbnailAlignment": "center",
+        "thumbnailOpenImage": true
+      }'>
+      <a href="berlin1.jpg" data-ngthumb="berlin1t.jpg" data-ngdesc="">Berlin 1</a>
+      <a href="berlin2.jpg" data-ngthumb="berlin2t.jpg" data-ngdesc="">Berlin 2</a>
+      <a href="berlin3.jpg" data-ngthumb="berlin3t.jpg" data-ngdesc="">Berlin 3</a>
+
+    </div>
+	
