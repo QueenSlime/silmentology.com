@@ -50,4 +50,4 @@ subtitle = ""
  css_class = ""
 +++
 
-{{< nanogallery2 >}}
+{{< nanogallery >}}
