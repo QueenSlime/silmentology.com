@@ -49,27 +49,43 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
-<link  href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
 
-<script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/jquery.nanogallery2.min.js"></script>
+    <html>
+        <head>
+            <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">          
+            
+            <!-- jQuery -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+          
+            <!-- nanogallery2 -->
+            <link  href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+            <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/jquery.nanogallery2.min.js"></script>
+        </head>
+        <body>
+        
+              <h1>gallery made with nanogallery2</h1>
 
-<div id="nanogallery2">gallery_made_with_nanogallery2</div>
+              <!-- ### position of the gallery ### -->
+              <div id="nanogallery2">gallery_made_with_nanogallery2</div>
+            
+              <script>
+                 jQuery(document).ready(function () {
 
-<script>jQuery(document).ready(function () {
-jQuery("#nanogallery2").nanogallery2( {
-// ### gallery settings ### 
-thumbnailHeight:  150,
-thumbnailWidth:   150,
-itemsBaseURL:     'https://nanogallery2.nanostudio.org/samples/',
+                    jQuery("#nanogallery2").nanogallery2( {
+                        // ### gallery settings ### 
+                        thumbnailHeight:  150,
+                        thumbnailWidth:   150,
+                        itemsBaseURL:     'https://nanogallery2.nanostudio.org/samples/',
+                        
+                        // ### gallery content ### 
+                        items: [
+                            { src: 'berlin1.jpg', srct: 'berlin1_t.jpg', title: 'Berlin 1' },
+                            { src: 'berlin2.jpg', srct: 'berlin2_t.jpg', title: 'Berlin 2' },
+                            { src: 'berlin3.jpg', srct: 'berlin3_t.jpg', title: 'Berlin 3' }
+                          ]
+                      });
+                  });
+              </script>
 
-// ### gallery content ### 
-items: [
-{ src: 'berlin1.jpg', srct: 'berlin1_t.jpg', title: 'Berlin 1' },
-{ src: 'berlin2.jpg', srct: 'berlin2_t.jpg', title: 'Berlin 2' },
-{ src: 'berlin3.jpg', srct: 'berlin3_t.jpg', title: 'Berlin 3' }
-]
-});
-});
-</script>
-
+          </body>
+      </html>
