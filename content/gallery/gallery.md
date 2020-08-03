@@ -159,14 +159,13 @@ Boop on your head
 <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.2/jquery.nanogallery2.min.js"></script>
 
 <div id="nanogallery2"
-              
-<!-- gallery settings -->
-    data-nanogallery2 = '{
-    "thumbnailHeight":  150,
-    "thumbnailWidth":   150,
-    "itemsBaseURL":     "https://nanogallery2.nanostudio.org/samples/"
-    }' >
-                      
+
+data-nanogallery2 = '{
+"thumbnailHeight": 150,
+"thumbnailWidth": 150,
+"itemsBaseURL": "https://nanogallery2.nanostudio.org/samples/"
+}' >
+
 <!-- gallery content -->
 <a href = "berlin1.jpg"   data-ngThumb = "berlin1_t.jpg" > Berlin 1 </a>
 <a href = "berlin2.jpg"   data-ngThumb = "berlin2_t.jpg" > Berlin 2 </a>
