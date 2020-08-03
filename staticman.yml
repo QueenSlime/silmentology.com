@@ -1,12 +1,13 @@
 --- 
 comments: 
+  name: "SLIMENTOLOGY"
   allowedFields: 
     - name
     - email
     - website
     - comment
     - reply_to
-  branch: master
+  branch: development
   commitMessage: "New comment in {options.slug}"
   filename: "comment-{@timestamp}"
   format: yaml
@@ -23,3 +24,8 @@ comments:
     - comment
   transforms: 
     email: md5
+
+  reCaptcha:
+    enabled: true
+    siteKey: "6LcrBboZAAAAAGwS0hzoicHL_VVqafKfI9hzwUDT"
+    secret: "W3SI4z7GlCvI3vaK0thu+aURsmvFZSh1ttvK8TBHtCGeZLtbNWy1y16/T+61azgXpkBuRM4EVuoix2KumPxR21Dx1LBizMlw3jIWSlY7gXzeuacgPZCiQcc4RreL35/9orQJE0Vfrb8x5txDEHI/JcO9Sl1ynFpEsA1I5bO+5i9gISfkR35XvZzjiMYJ5CM0uZowQpgE7KdPVOiCrdRa8M74XyEK9q8WH5Mg0CvvMKvCo5pF3SYn/SDsMbOtLpUzAfE4EMAliM6CPdAL1FbBS5WCjdicD+4s88n1K6/co8tFQCK3NctYnux9Qm2oCoPFIIMCJaNsrRTOhXTlFqFNK3rZeW4xXq1hDIsy5dEulKMa84zH4w7ry0tf8K/aq3kMpwgckjnZLD/ibFREFVRnyBnSR3UvF3JWfqFNz+FBABMJmmehLL5CQuYUYzZ0odRFqCWsVA/9NjCMRxOuNarpo63XWfNpKtFL0hOgU2CQ9mevm/SoYyBQjSeUDWUuO/K1+lYb/6qCpcndrQf2PuXb+BQ0mZk0i1SGBCz/ganajmGIUacGQxPdt3SZv9C+btzvWuJBfUc+8KudYEI2tl0T9C1hIAfuMxIaGE52EfAy2ZB/yVar3DGmxEJHU4UB8/dFbb8JmBIFZWOiuIYbHFRUba+UFM7245ivyUfD5Z2l9sE="
