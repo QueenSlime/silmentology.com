@@ -1,5 +1,6 @@
 --- 
 comments: 
+  name: "SLIMENTOLOGY"
   allowedFields: 
     - name
     - email
