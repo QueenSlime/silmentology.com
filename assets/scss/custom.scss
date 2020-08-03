@@ -81,3 +81,18 @@ site-footer, footer a.back-to-top i {
     border: none;
     transition: all .2s;
 }
+
+.post-comment.reply {
+    background: #f3f0f0eb;
+    position: relative;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #f3f1f1;
+    position: absolute;
+    top: -20px;
+}
