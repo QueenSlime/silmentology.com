@@ -104,11 +104,11 @@ subtitle = ""
 
 <script>
 lightGallery(document.getElementById('lightgallery'), {
-    thumbnail:true,
-    animateThumb: true,
-    showThumbByDefault: true,
-	fullScreen: true,
-	share: true
+    thumbnail: 'true',
+    animateThumb: 'true',
+    showThumbByDefault: 'true',
+	fullScreen: 'true',
+	share: 'true'
 }); 
 </script>
 
