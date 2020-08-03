@@ -1,11 +1,10 @@
 {{- $vs := .Site.Params.staticman }}
 <span class = 'form_toggle btn'>{{ i18n "comment" }}</span>
 <form class = 'form' method = 'POST'>
-  <!-- Start comment form display reply target -->
+
   <p class='reply_notice'>
     <span class='reply_to'></span>
   </p>
-  <!-- End comment form display reply target -->
 
   <input type = 'hidden' class = 'form_input form_slug' name = 'options[slug]' value = '{{ md5 .File.Path }}'>
   <input type='hidden' class='form_input reply_thread' name='fields[replyThread]'>
