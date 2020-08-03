@@ -51,7 +51,6 @@ subtitle = ""
 +++
 
 <!-- lightgallery https://github.com/sachinchoolur/lightgallery.js -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/css/lightgallery.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/lib/js/lightgallery.min.js"></script>
 
