@@ -56,9 +56,6 @@ subtitle = ""
 
 <div class="cont">
   <div class="page-head">
-    <h1>lightgallery <span class="version">V0.0.1</span></h1>
-    <p class="lead">Full featured lightbox gallery. Zero dependencies.</p><a href="https://github.com/sachinchoolur/lightgallery.js" class="btn btn-primary btn-lg">View on github</a></div>
-
   <div class="demo-gallery">
     <ul id="lightgallery">
       <li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
@@ -98,7 +95,6 @@ subtitle = ""
         </a>
       </li>
     </ul>
-    <span class="small">Click on any of the images to see lightGallery</span>
   </div>
 </div>
 
