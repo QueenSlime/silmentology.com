@@ -68,6 +68,7 @@ lightGallery(document.getElementById('lightgallery'), {
     thumbnail:true,
     animateThumb: true,
     showThumbByDefault: true,
-	fullScreen: true
+	fullScreen: true,
+	share: true
 }); 
 </script>
