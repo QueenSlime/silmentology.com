@@ -13,5 +13,3 @@ header:
   caption: ""
   image: ""
 ---
-
-{{ partial "comments.html" .}}
