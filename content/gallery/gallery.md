@@ -57,5 +57,5 @@ subtitle = ""
 
 <!-- images -->
 <a data-fancybox="gallery" data-animation-effect="false" data-caption="My caption" href="../media/landing.png"><img src="../media/landing.png"></a>
-<a data-fancybox="gallery" data-animation-effect="false" data-caption="My caption" href="../media/header.png"><img src="../media/landing.png"></a>
-<a data-fancybox="gallery" data-animation-effect="false" data-caption="My caption" href="../media/slime-soup-ritual.jpg"><img src="../media/landing.png"></a>
+<a data-fancybox="gallery" data-animation-effect="false" data-caption="My caption" href="../media/header.png"><img src="../media/header.png"></a>
+<a data-fancybox="gallery" data-animation-effect="false" data-caption="My caption" href="../media/slime-soup-ritual.jpg"><img src="../media/slime-soup-ritual.jpg"></a>
