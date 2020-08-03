@@ -4,6 +4,11 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
+  name = "STATICMAN"
+  url = "#"
+  weight = 4
+  
+[[main]]
   name = "JOIN"
   url = "#"
   weight = 4
