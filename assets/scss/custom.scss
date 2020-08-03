@@ -55,6 +55,14 @@ site-footer, footer a.back-to-top i {
 
 /* Comment Section CSS */
 
+#comments h3.title {
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 4rem;
+    background: #9a6bcc;
+    color: #fff;
+}
+
 .post-comment {
     background-color: #fff;
     padding: 2rem 4rem;
