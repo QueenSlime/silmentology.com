@@ -22,11 +22,11 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  # color = "navy"
+   color = "#4d87ef"
   
   # Background gradient.
-   gradient_start = "#4d87ef"
-   gradient_end = "#4d87ef"
+   #gradient_start = "#4d87ef"
+   # gradient_end = "SkyBlue"
   
   # Background image.
   image = "slime-header.png"  # Name of image in `static/media/`.
