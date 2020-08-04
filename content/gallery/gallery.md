@@ -53,3 +53,7 @@ subtitle = ""
 Work-in-progress............
 
 {{< nanogallery >}}
+
+{{< nanogallery >}}
+
+{{< nanogallery >}}
