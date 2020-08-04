@@ -8,8 +8,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
 
-title = "Slime"
-subtitle = "Slurp!"
+title = "Slime Slurp!"
+subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -40,7 +40,7 @@ subtitle = "Slurp!"
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["400px", "0", "0", "0"]
+  padding = ["350px", "0", "0", "0"]
 
 [advanced]
  # Custom CSS. 
