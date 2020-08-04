@@ -53,7 +53,16 @@ site-footer, footer a.back-to-top i {
     border: 8px solid #4d87ef;
 }
 
+/* Disable fade in for images  */
 .home-section {
     animation: none;
     animation-delay: 0s;
+}
+
+/* Sticky footer  */
+footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
 }
