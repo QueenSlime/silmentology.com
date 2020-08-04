@@ -6,14 +6,14 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 3  # Order that this section will appear.
+weight = 15  # Order that this section will appear.
 
-title = ""
+title = "Demos"
 subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns = "1"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -29,18 +29,18 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-  image = ""  # Name of image in `static/media/`.
-  image_darken = 0  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image = "headers/bubbles-wide.jpg"  # Name of image in `static/media/`.
+  image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
-  image_parallax = false  # Use a fun parallax-like fixed background effect? true/false
+  image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
 
   # Text color (true=light or false=dark).
-  text_color_light = false
+  text_color_light = true
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "50px", "0"]
+  padding = ["20px", "0", "20px", "0"]
 
 [advanced]
  # Custom CSS. 
@@ -50,9 +50,16 @@ subtitle = ""
  css_class = ""
 +++
 
-### <center> Rejoice for the Holy Slime has chosen you. We, the devout childern of Slimentology, welcome you into the gooey embrace of the Ooze. </center>
+Welcome to the **personal demo** of Academic. Other demos available include:
 
-<br>
+- [**Project Demo** (Academic's actual site)](https://sourcethemes.com/academic/)
 
-<center> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </center>
+**Over 100,000 [Amazing Websites](https://sourcethemes.com/academic/#expo) have Already Been Built with Academic**
 
+**[Join](https://sourcethemes.com/academic/docs/install/) the Most Empowered Hugo Community**
+
+{{% alert note %}}
+This homepage section is an example of adding [elements](https://sourcethemes.com/academic/docs/writing-markdown-latex/) to the [*Blank* widget](https://sourcethemes.com/academic/docs/widgets/).
+
+Backgrounds can be applied to any section. Here, the *background* option is set give an *image parallax* effect.
+{{% /alert %}}
