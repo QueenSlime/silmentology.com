@@ -41,4 +41,4 @@ title = ""
   label = "Slurp Me."
 +++
 
-<center><h1>SLIME SLURP!</h1></center>
+<h1>SLIME SLURP!</h1>
