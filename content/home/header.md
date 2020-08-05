@@ -10,4 +10,4 @@ weight = 1  # Order that this section will appear.
 
 +++
 
-<h1 class="slurp">Slime         Slurp!</h1>
+<h1 class="slurp">Slime &nbsp; &nbsp; Slurp!</h1>
