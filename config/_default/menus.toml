@@ -5,32 +5,25 @@
  
 [[main]]
   name = "COMMENTS"
-  url = "comments/"
+  url = "#comments"
   weight = 5
   
 [[main]]
   name = "JOIN"
-  url = "join/"
+  url = "#join"
   weight = 4
   
 [[main]]
   name = "GALLERY"
-  url = "gallery/"
+  url = "#gallery"
   weight = 3
   
 [[main]]
   name = "HOLY SLIMBLE"
-  url = "holy-slimble/"
+  url = "#holy-slimble"
   weight = 2
     
 [[main]]
   name = "HOME"
-  url = "test/"
+  url = "#"
   weight = 1
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 70
