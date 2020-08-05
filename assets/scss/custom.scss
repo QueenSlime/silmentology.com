@@ -32,7 +32,11 @@ site-footer, footer a.back-to-top i {
 }
 
 /* Menu item hover over color  */
-#navbar-main .main-menu-item ul li .nav-link {
+#navbar-main .main-menu-item ul li .nav-link:hover {
+    color: #145feb;
+}
+
+#navbar-main .main-menu-item ul li .nav-link:active {
     color: #145feb;
 }
 
