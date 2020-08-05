@@ -31,6 +31,11 @@ site-footer, footer a.back-to-top i {
     color: rgba(77, 135, 239, 1);
 }
 
+/* Menu item hover over color  */
+#navbar-main .main-menu-item ul li .nav-link:hover {
+    color: #145feb;
+}
+
 /* Holy Slime sub text  */
 .hero-lead {
     font-size: 0.95rem;
