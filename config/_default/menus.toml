@@ -5,25 +5,25 @@
  
 [[main]]
   name = "COMMENTS"
-  url = "#comments"
+  url = "comments/"
   weight = 5
   
 [[main]]
   name = "JOIN"
-  url = "#join"
+  url = "join/"
   weight = 4
   
 [[main]]
   name = "GALLERY"
-  url = "#gallery"
+  url = "gallery/"
   weight = 3
   
 [[main]]
   name = "HOLY SLIMBLE"
-  url = "#holy-slimble"
+  url = "holy-slimble/"
   weight = 2
     
 [[main]]
   name = "HOME"
-  url = "#"
+  url = ""
   weight = 1
