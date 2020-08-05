@@ -23,13 +23,15 @@
 }
 
 /* Slime header Desktop */
-@media only screen and (min-width: 400px) .home-section:first-of-type {
+@media only screen and (min-width: 400px) {
+  .home-section:first-of-type {
   background-image: url("/media/slime-header.jpg");
   height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+	}
 }
 
 /* Change headings and author names to blue  */
