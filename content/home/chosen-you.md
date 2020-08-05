@@ -50,7 +50,7 @@ subtitle = ""
  css_class = ""
 +++
 
-<center> <img class="slime-header" img src="/media/slime-header.png" /> </center>
+<center> <img class="slime-header" img src="/media/slime-header.jpg" /> </center>
 
 ### <center> Rejoice for the Holy Slime has chosen you. We, the devout childern of Slimentology, welcome you into the gooey embrace of the Ooze. </center>
 
