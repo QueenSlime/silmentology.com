@@ -12,6 +12,16 @@
        url(/fonts/congenial-light.woff) format('woff');
 }
 
+/* Slime header  */
+.hero-image {
+  background-image: url("/media/slime-header.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 /* Change headings and author names to blue  */
 h1, h2, h3, h4, h5, h6 {
     color: #528af0;
