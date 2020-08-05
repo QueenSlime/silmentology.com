@@ -2,24 +2,24 @@
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
- 
+
 [[main]]
-  name = "COMMENTS"
-  url = "comments/"
+  name = "HOLY SLIMBLE"
+  url = "holy-slimble/"
   weight = 10
-  
-[[main]]
-  name = "JOIN"
-  url = "join/"
-  weight = 20
   
 [[main]]
   name = "GALLERY"
   url = "gallery/"
+  weight = 20
+
+ [[main]]
+  name = "COMMENTS"
+  url = "comments/"
   weight = 30
   
 [[main]]
-  name = "HOLY SLIMBLE"
-  url = "holy-slimble/"
+  name = "JOIN"
+  url = "join/"
   weight = 40
   
