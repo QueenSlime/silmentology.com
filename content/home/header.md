@@ -10,4 +10,4 @@ weight = 1  # Order that this section will appear.
 
 +++
 
-<h1>test</h1>
+<div class="hero-image"></div>
