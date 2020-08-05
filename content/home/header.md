@@ -45,15 +45,9 @@ subtitle = ""
 [advanced]
  # Custom CSS. 
  css_style = " 
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;"
  
  # CSS class.
- css_class = ""
+ css_class = "slime-header"
 +++
 
 
