@@ -6,12 +6,12 @@
 [[main]]
   name = "COMMENTS"
   url = "comments/"
-  weight = 5
+  weight = 1
   
 [[main]]
   name = "JOIN"
   url = "join/"
-  weight = 4
+  weight = 2
   
 [[main]]
   name = "GALLERY"
@@ -21,9 +21,4 @@
 [[main]]
   name = "HOLY SLIMBLE"
   url = "holy-slimble/"
-  weight = 2
-    
-[[main]]
-  name = "HOME"
-  url = ""
-  weight = 1
+  weight = 4
