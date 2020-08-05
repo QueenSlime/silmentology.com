@@ -1,5 +1,3 @@
-<script>
-
 (function(scope) {
   var dragging = false;
   var lastY = 0;
@@ -145,4 +143,3 @@
   });
 
 })(self);
-</script>
