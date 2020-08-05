@@ -9,7 +9,3 @@ active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
 
 +++
-
-<center>
-	<h1 class="slurp">Slime &nbsp; &nbsp; Slurp!</h1>
-</center>
