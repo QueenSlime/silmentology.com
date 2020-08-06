@@ -8,6 +8,9 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
 
+[design.background]
+image = "slime-header.jpg"
+
 [advanced]
  # Custom CSS. 
  css_style = ""
