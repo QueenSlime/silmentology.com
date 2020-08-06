@@ -13,6 +13,6 @@ weight = 1  # Order that this section will appear.
  css_style = ""
  
  # CSS class.
- css_class = "slimeheader"
+ css_class = "slime-header"
  
 +++
