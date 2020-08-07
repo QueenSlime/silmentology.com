@@ -102,9 +102,11 @@ site-footer, footer a.back-to-top i {
 }
 
 button, input {
-    color: #ffffff;
-    border-radius: 25px;
-    box-shadow: none;
-    border: 5px solid #4d87ef;
-    background-color: #4d87ef;
+  outline: none;
+  box-shadow: none;
+  color: #ffffff;
+  border-radius: 25px;
+  box-shadow: none;
+  border: 5px solid #4d87ef;
+  background-color: #4d87ef;
 }
