@@ -97,9 +97,7 @@ site-footer, footer a.back-to-top i {
 /* Contact form styling  */
 
 textarea {
-  outline: none;
   border-radius: 25px;
-  box-shadow: none;
   border: 5px solid #4d87ef;
   padding: 15px;
   width: 100%;
@@ -107,7 +105,7 @@ textarea {
 }
 
 textarea:focus {
-  border: #145feb;
+  border: 5px solid #145feb;
 }
 
 button, input {
