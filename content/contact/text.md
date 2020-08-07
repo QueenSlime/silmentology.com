@@ -55,7 +55,7 @@ subtitle = ""
 <div class="contact-form">
   <form action="https://formspree.io/xoqkroqp" method="POST">
 
-    <textarea id="message" name="message" placeholder="Your message..." style="height:200px"></textarea>
+    <text area id="message" name="message" placeholder="Your message..." style="height:200px"></textarea>
 
     <center><input type="submit" value="SEND"></center>
   </form>
