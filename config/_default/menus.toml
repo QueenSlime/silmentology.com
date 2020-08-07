@@ -22,13 +22,13 @@
   name = "COMMENTS"
   url = "comments/"
   weight = 40
-  
+
 [[main]]
   name = "JOIN"
   url = "join/"
   weight = 50
 
   [[main]]
-    name = "CONTACT"
-    url = "contact/"
+    name = "PRAY"
+    url = "pray/"
     weight = 60
