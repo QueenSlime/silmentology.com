@@ -5,7 +5,7 @@ active = true  # Activate this widget? true/false
 weight = 3  # Order that this section will appear.
 
 [design.spacing]
-  padding = ["0", "0", "50px", "0"]
+  padding = ["0", "0", "150px", "0"]
 +++
 
 {{< contactform >}}
