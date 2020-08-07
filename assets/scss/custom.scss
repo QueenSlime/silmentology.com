@@ -97,9 +97,10 @@ site-footer, footer a.back-to-top i {
 /* Contact form styling  */
 
 .form {
-  display: flex;
-  justify-content: center; /* center horizontally */
-  align-items: center; /* center vertically */
+  display: grid;
+  background-color: bisque;
+  height: 100vh;
+  place-items: center;
 }
 
 textarea {
