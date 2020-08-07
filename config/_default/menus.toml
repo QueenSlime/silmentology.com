@@ -12,12 +12,12 @@
   name = "GALLERY"
   url = "gallery/"
   weight = 20
-  
+
 [[main]]
   name = "HOLY SLIMBLE"
   url = "holy-slimble/"
   weight = 30
-  
+
  [[main]]
   name = "COMMENTS"
   url = "comments/"
@@ -27,3 +27,8 @@
   name = "JOIN"
   url = "join/"
   weight = 50
+
+  [[main]]
+    name = "CONTACT"
+    url = "contact/"
+    weight = 60
