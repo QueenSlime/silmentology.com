@@ -96,9 +96,10 @@ site-footer, footer a.back-to-top i {
 
 /* Contact form styling  */
 
-#form {
-  width: 500px;
-  margin: 0 auto;
+.form {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
 }
 
 textarea {
