@@ -3,8 +3,8 @@ widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 3  # Order that this section will appear.
-css_style = "display: flex; justify-content: center; align-items: center;"
-css_class = "contact-form"
+css_style = ""
+css_class = ""
 +++
 
 {{< contactform >}}
