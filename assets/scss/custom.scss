@@ -127,3 +127,7 @@ button, input {
   -o-transition: .4s;
   transition: .4s;
 }
+
+button, input:hover {
+  background-color: #145feb;
+}
