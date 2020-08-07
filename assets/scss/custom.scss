@@ -96,9 +96,13 @@ site-footer, footer a.back-to-top i {
 
 /* Contact form styling  */
 textarea {
+  outline: none;
+  box-shadow: none;
   border-radius: 25px;
   box-shadow: none;
   border: 5px solid #4d87ef;
+  height: 300px;
+  width: 1000px;
 }
 
 button, input {
