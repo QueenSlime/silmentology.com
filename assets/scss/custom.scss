@@ -109,4 +109,14 @@ button, input {
   box-shadow: none;
   border: 5px solid #4d87ef;
   background-color: #4d87ef;
+  position: relative;
+  display: inline-block;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
 }
