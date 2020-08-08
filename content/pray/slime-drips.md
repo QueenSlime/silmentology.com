@@ -47,7 +47,7 @@ subtitle = ""
  css_style = "height: 140px; background-position: left;"
 
  # CSS class.
- css_class = ""
+ css_class = "contact-form"
 +++
 
 {{< contactform >}}
