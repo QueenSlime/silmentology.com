@@ -40,7 +40,7 @@ subtitle = ""
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["0", "0", "140px", "0"]
+  padding = ["0", "0", "150px", "0"]
 
 [advanced]
  # Custom CSS.
@@ -49,3 +49,5 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+{{< contactform >}}
