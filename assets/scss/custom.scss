@@ -133,31 +133,6 @@ button, input:hover {
   border: 5px solid #145feb;
 }
 
-.Pray {
-  max-width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.Aligner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.Aligner-item {
-  max-width: 50%;
-}
-
-.Aligner-item--top {
-  align-self: flex-start;
-}
-
-.Aligner-item--bottom {
-  align-self: flex-end;
-}
-
 /* Gallery styling  */
 .nanogallery_gallerytheme_custom_ngy2p .nGY2GThumbnail {
     border-radius: 50%!important;
