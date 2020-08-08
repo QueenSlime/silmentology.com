@@ -50,4 +50,8 @@ subtitle = ""
  css_class = "contact-form"
 +++
 
+<br>
+<br>
+<br>
+
 {{< contactform >}}
